@@ -1,0 +1,16 @@
+提前在mysql新建一个socketdemo数据库
+在这个库创建两个表
+1：user表
+	create table user
+	(id int primary key auto_increment,
+	username varchar(30) not null,
+	passsword varchar(30) not null
+	);
+
+2:file表
+	create table file
+	(fid int primary key auto_increment,
+	fname varchar(50) not null,
+	fcontent mediumblob 
+	);
+	
